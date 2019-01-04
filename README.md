@@ -3,7 +3,7 @@
 
 
 
-<Description of what the package does>
+isNullOrEmpty method returns true if input is empty string or null
 
 
 
@@ -17,7 +17,7 @@
 
 Install the package using npm :
 
- npm install is-null-or-empty --save
+ npm install test-da-package --save
 
 
 
@@ -29,12 +29,12 @@ Then, require the package and use it:
 
  [Comment: To check if this usage is proper]
 
- var isNullOrEmpty = require('is-null-or-empty');
+ var a = require('test-da-package');
 
 
 
- console.log(isNullOrEmpty("")); // true
+ console.log(a.isNullOrEmpty("")); // true
 
 
 
- console.log(isNullOrEmpty("Hello World")); // false
+ console.log(a.isNullOrEmpty("Hello World")); // false
